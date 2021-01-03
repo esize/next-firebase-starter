@@ -1,8 +1,8 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const APP_NAME = "nextchakra-starter";
+const APP_NAME = 'nextchakra-starter';
 const APP_DESCRIPTION =
-  "Next.js app template with Chakra-UI, TypeScript, and PWA configured";
+  'Next.js app template with Chakra-UI, TypeScript, and PWA configured';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -33,7 +33,6 @@ class MyDocument extends Document {
             href="/icons/apple-touch-icon.png"
           />
           <link rel="shortcut icon" href="/app-icon.png" /> */}
-          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
